@@ -17,14 +17,14 @@ $font-display: 'Josefin Sans', sans-serif;
 *,
 *::before,
 *::after {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
 }
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; // 10px/16px = 62,5% -> 1rem = 10px
+  font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
 }
 
 body {
@@ -42,15 +42,4 @@ body {
     [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
     [center-end] minmax(6rem, 1fr)
     [full-end];
-
-  & > * {
-    padding: 40px;
-    font-size: 3rem;
-  }
-
-  // grid-template-columns:
-  //   [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr)
-  //   [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
-  //   [center-end] minmax(6rem, 1fr)
-  //   [full-end];
 }
