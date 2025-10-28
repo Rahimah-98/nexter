@@ -1,0 +1,1 @@
+{"version":3,"sources":["_gallery.scss"],"names":[],"mappings":"AAAA,SACE,YAAa,UAAW,CAAC,SACzB,QAAS,KACT,sBAAuB,cACvB,mBAAoB,cACpB,IAAK","file":"_gallery.min.css","sourcesContent":[".gallery {\r\n  grid-column: full-start / full-end;\r\n\r\n  display: grid;\r\n  grid-template-columns: repeat(8, 1fr);\r\n  grid-template-rows: repeat(7, 5vw);\r\n  gap: 2rem;\r\n}\r\n"]}
